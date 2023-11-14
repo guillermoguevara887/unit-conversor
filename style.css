@@ -1,0 +1,99 @@
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url(./CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 550px;
+    height: 729px;
+    border: 1px solid black;
+}
+
+.head {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+
+
+    width: 550px;
+    height: 285px;
+    background-color: rgba(105, 67, 255, 1);
+    color: white;
+}
+
+.number {
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    font-family: CursedTimerUlil-Aznm;
+    background-color: rgba(105, 67, 255, 1);
+    font-size: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+#btn {
+
+    width: 124px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: rgb(220, 217, 217);
+    border: none;
+    font-size: 20px;
+
+}
+
+.body {
+    padding-top: 20px;
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(220, 217, 217);
+}
+
+.meter {
+    width: 500px;
+    height: 118px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.liter {
+    width: 500px;
+    height: 118px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.kilo {
+    width: 500px;
+    height: 118px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
